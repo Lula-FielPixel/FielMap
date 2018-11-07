@@ -1,6 +1,6 @@
-# Minimapa-VascoPixel-Pixel ZONE
-#### Discord http://discord.me/vascopixel 
-#### Creditos:
+# Minimapa-FielPixel
+#### Discord http://discord.me/fielpixelbr
+#### Creditos: Vascopixel
 #### ConsoleBey#9737
 ### PASSOS
 #### PASSO 1: Instalar Tampermonkey
