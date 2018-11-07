@@ -1,14 +1,14 @@
 // ==UserScript==
-// @name         Vascopixel Minimap
+// @name         FielMap
 // @namespace    http://tampermonkey.net/
 // @version      1.2.4
 // @description  VP Minimap Zone
-// @author       ConsoleBey#9737
+// @author       [FielPixel]Lula ???#7519
 // @match        https://pixelzone.io/*
 // @match        http://pixelzone.io/*
-// @homepage     https://github.com/Vasco-Pixel/mz
-// @updateURL    https://raw.githubusercontent.com/Vasco-Pixel/mz/master/minimap.user.js
-// @downloadURL  https://raw.githubusercontent.com/Vasco-Pixel/mz/master/minimap.user.js
+// @homepage     https://github.com/Lula-FielPixel/FielMap
+// @updateURL    https://github.com/Lula-FielPixel/FielMap/blob/master/minimap.user.js
+// @downloadURL  https://github.com/Lula-FielPixel/FielMap/blob/master/minimap.user.js
 // @grant        none
 // ==/UserScript==
 
@@ -18,7 +18,7 @@ Number.prototype.between = function(a, b) {
   return this > min && this < max;
 };
 var range = 25;
-window.baseTepmlateUrl = 'https://raw.githubusercontent.com/Vasco-Pixel/mz/master/';
+window.baseTepmlateUrl = 'https://github.com/Lula-FielPixel/FielMap/blob/master/';
 
 window.addEventListener('load', function () {
     //Regular Expression to get coordinates out of URL
@@ -285,7 +285,7 @@ function loadTemplates() {
         if (zooming_in == false && zooming_out == false) {
             document.getElementById("minimap-box").style.display = "none";
             document.getElementById("minimap-text").style.display = "block";
-            document.getElementById("minimap-text").innerHTML = "NÃ£o tem nada aqui.";
+            document.getElementById("minimap-text").innerHTML = "Não tem nada aqui.";
         }
     } else {
         document.getElementById("minimap-box").style.display = "block";
